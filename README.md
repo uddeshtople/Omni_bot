@@ -15,5 +15,5 @@ were implemented on the OWMR. The proposed controller tracks the
 trajectory with greater accuracy as compared to other standard con-
 trollers.
 
-![video](https://drive.google.com/file/d/12JdKOwPNl6Pa24-NKA-WGQgfvkBHokF6/view?usp=sharing)
+[video](https://drive.google.com/file/d/12JdKOwPNl6Pa24-NKA-WGQgfvkBHokF6/view?usp=sharing)
   

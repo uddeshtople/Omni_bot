@@ -8,13 +8,7 @@
 [video link](https://drive.google.com/file/d/12JdKOwPNl6Pa24-NKA-WGQgfvkBHokF6/view?usp=sharing)
   
  ## Abstract
- Mobile robots at present are used extensively in the industrial and commercial sectors. There is a need for a robot that can easily
-maneuver in the sparse space at the warehouse, stores, etc. Omnidirectional robots have an upper hand over conventional mobile robots as
-they need not change their orientation while maneuvering. In this paper,
-we are putting forth the design of robust controller for Omni Wheeled
-Mobile Robot(OWMR). In the beginning, Kinematic and Dynamic modeling of OWMR was done, then PID and Sliding Mode Controller(SMC)
-were implemented on the OWMR. The proposed controller tracks the
-trajectory with greater accuracy as compared to other standard controllers.
+Mobile robots at present are used extensively in the industrial and commercial sectors. There is a need for a robot that can easily maneuver in the sparse space at the warehouse, stores, etc. Omnidirectional Mobile Robots are capable of maneuvering in all directions without changing its orientation on a flat surface. In our project we built a **Robust Sliding Mode Controller** for Omni wheeled mobile robot for trajectory tracking. We compare the result of sliding mode controller with standard PID controller and found that sliding mode controller gives much better accuracy than standard well-tuned PID controller.
 
 ## Result
 #### Trajectory Tracking using PID and SMC 

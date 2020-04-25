@@ -1,8 +1,9 @@
 # Omni Directional Mobile Robot
  This project has been presented in the 'International Conference on Advances in Mechanical Engineering, 2020'.
  Please cite this paper if you are using this repository:[paper](https://www.springer.com/in/book/9789811536380)
+  ![Image](https://github.com/saad2121/Omni_bot/blob/master/omni_bot.jpg)
+
  ## Demo
- ![Image](https://github.com/saad2121/Omni_bot/blob/master/WhatsApp%20Image%202020-04-25%20at%205.29.18%20AM.png)
 [video link](https://drive.google.com/file/d/12JdKOwPNl6Pa24-NKA-WGQgfvkBHokF6/view?usp=sharing)
   
  ## Abstract
@@ -13,6 +14,10 @@ we are putting forth the design of robust controller for Omni Wheeled
 Mobile Robot(OWMR). In the beginning, Kinematic and Dynamic modeling of OWMR was done, then PID and Sliding Mode Controller(SMC)
 were implemented on the OWMR. The proposed controller tracks the
 trajectory with greater accuracy as compared to other standard controllers.
+
+## Result
+![Trajectory Tracking using PID and SMC ](https://github.com/saad2121/Omni_bot/blob/master/omni_bot.jpg)
+
 ## Contributors
 * Mohammad Saad
 * Amrapali Khandare

@@ -2,7 +2,7 @@
  This project has been presented in the 'International Conference on Advances in Mechanical Engineering, 2020'.
  Please cite this paper if you are using this repository:[paper](https://www.springer.com/in/book/9789811536380)
  ## Demo
- ![Image](https://drive.google.com/file/d/1GDIIFgf72JQT9CH9ptP_koPhE-MlEs28/view?usp=sharing)
+ ![Image](https://drive.google.com/open?id=1GDIIFgf72JQT9CH9ptP_koPhE-MlEs28)
 [video link](https://drive.google.com/file/d/12JdKOwPNl6Pa24-NKA-WGQgfvkBHokF6/view?usp=sharing)
   
  ## Abstract

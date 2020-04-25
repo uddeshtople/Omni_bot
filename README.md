@@ -12,7 +12,12 @@ Mobile robots at present are used extensively in the industrial and commercial s
 
 ## Instructions:
  We have implemented the **Robust Sliding Mode Controller(RSMC)** and **PID Controller** on Omni_bot using MATLAB-Simulink. Following are the instructions to use the Simulink Models.
- 
+ ##### Before running any simulink file, make sure that you have setup the configuration Parameters as
+###### Solver Options
+  * Type - Fixed Step
+  * Solver - ode2(Heun)
+###### Additional parameters
+ * Fixed Step Size = 0.02
  #### Simulation of Omni_bot using PID Controller
  * Run **omnipid.m** in MATLAB
  * Run **omnipid_infinity.slx** in simulink 
@@ -24,8 +29,7 @@ Mobile robots at present are used extensively in the industrial and commercial s
  * Run **omnismc.m** in MATLAB
  * Deploy **omni_smc_infinity_arduino.slx.original** using Simulink (Make sure MATLAB Support package for Arduino is already Installed)
  #### Check Hardare
-  To check the hardware we used [Atduino IDE](https://www.arduino.cc/en/main/software) and run the code **OSquare.ino**, using this code 
-  bot performs square trajectory.
+  To check the working of hardware, we used [Atduino IDE](https://www.arduino.cc/en/main/software) and run the code **OSquare.ino**, using this code bot performs square trajectory.
   
 ## Dependencies:
 * [MATLAB](https://in.mathworks.com/products/matlab.html)

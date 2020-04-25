@@ -1,6 +1,7 @@
 # Omni Directional Mobile Robot
  This project has been presented in the 'International Conference on Advances in Mechanical Engineering, 2020'.
  Please cite this paper if you are using this repository:[paper](https://www.springer.com/in/book/9789811536380)
+ #### Omni_bot
   ![Image](https://github.com/saad2121/Omni_bot/blob/master/omni_bot.jpg)
 
  ## Demo
@@ -16,7 +17,8 @@ were implemented on the OWMR. The proposed controller tracks the
 trajectory with greater accuracy as compared to other standard controllers.
 
 ## Result
-![Trajectory Tracking using PID and SMC ](https://github.com/saad2121/Omni_bot/blob/master/omni_bot.jpg)
+#### Trajectory Tracking using PID and SMC 
+![](https://github.com/saad2121/Omni_bot/blob/master/final%20trajectory.png)
 
 ## Contributors
 * Mohammad Saad

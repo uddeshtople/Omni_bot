@@ -1,6 +1,6 @@
 # Omni Directional Mobile Robot
  This project has been presented in the 'International Conference on Advances in Mechanical Engineering, 2020'.
- Please cite this paper if you are using this repository:[paper](https://www.springer.com/in/book/9789811536380)
+ Please cite this paper if you are using this repository : [paper](https://www.springer.com/in/book/9789811536380)
  #### Omni_bot
   ![Image](https://github.com/saad2121/Omni_bot/blob/master/omni_bot.jpg)
 
@@ -12,29 +12,33 @@ Mobile robots at present are used extensively in the industrial and commercial s
 
 ## Instructions:
  We have implemented the **Robust Sliding Mode Controller(RSMC)** and **PID Controller** on Omni_bot using MATLAB-Simulink. Following are the instructions to use the Simulink Models.
- ##### Before running any simulink file, make sure that you have setup the configuration Parameters as
+##### Before running any simulink file, make sure that you have setup the configuration Parameters as
 ###### Solver Options
   * Type - Fixed Step
   * Solver - ode2(Heun)
 ###### Additional parameters
  * Fixed Step Size = 0.02
- #### Simulation of Omni_bot using PID Controller
+
+#### Simulation of Omni_bot using PID Controller
  * Run **omnipid.m** in MATLAB
  * Run **omnipid_infinity.slx** in simulink 
  
-  #### Simulation of Omni_bot using SMC Controller
+#### Simulation of Omni_bot using SMC Controller
  * Run **omnismc.m** in MATLAB
  * Run **omnismc_infinity.slx** in simulink 
- #### Deploy the Code on Hardware
+
+#### Deploy the Code on Hardware (Arduino Mega)
  * Run **omnismc.m** in MATLAB
- * Deploy **omni_smc_infinity_arduino.slx.original** using Simulink (Make sure MATLAB Support package for Arduino is already Installed)
- #### Check Hardare
-  To check the working of hardware, we used [Atduino IDE](https://www.arduino.cc/en/main/software) and run the code **OSquare.ino**, using this code bot performs square trajectory.
+ * Deploy **omni_smc_infinity_arduino.slx.original** using Simulink (Make sure MATLAB Support package for Arduino or the controller to be used is already Installed)
+
+#### Check Hardare
+  To check the working of hardware, we used [Arduino IDE](https://www.arduino.cc/en/main/software) and run the code **OSquare.ino**, using this code robot performs square trajectory.
   
 ## Dependencies:
 * [MATLAB](https://in.mathworks.com/products/matlab.html)
 * [Simulink](https://in.mathworks.com/products/simulink.html)
 * [MATLAB Support package for Arduino ](https://in.mathworks.com/matlabcentral/fileexchange/47522-matlab-support-package-for-arduino-hardware)
+
 ## Result:
 #### Trajectory Tracking using PID and SMC 
 ![](https://github.com/saad2121/Omni_bot/blob/master/final%20trajectory.png)
@@ -43,4 +47,4 @@ Mobile robots at present are used extensively in the industrial and commercial s
 * Mohammad Saad
 * Amrapali Khandare
 * Uddesh Tople
-* Zeeshanul Islam
+* Zeeshan ul Islam
